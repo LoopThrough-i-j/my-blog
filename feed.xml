@@ -3,478 +3,293 @@
   <channel>
     <title>Debayan Ganguly</title>
     <description>Explore and Unleash Possibilities</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 11 Aug 2022 18:10:41 +0530</pubDate>
-    <lastBuildDate>Thu, 11 Aug 2022 18:10:41 +0530</lastBuildDate>
+    <link>https://loopthrough-i-j.github.io/my-blog/</link>
+    <atom:link href="https://loopthrough-i-j.github.io/my-blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 11 Aug 2022 21:16:20 +0530</pubDate>
+    <lastBuildDate>Thu, 11 Aug 2022 21:16:20 +0530</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>I Made Youtube Videos using Python</title>
-        <description>&lt;p&gt;The first project I worked on after leaving my full time job was to create Youtube videos programmatically, at scale. This post explains what I did, and what happened next.&lt;/p&gt;
+        <title>Starting a Company with Co-Founders, or going Solo?</title>
+        <description>&lt;p&gt;https://media.giphy.com/media/fQZX2aoRC1Tqw/giphy.gif&lt;/p&gt;
 
-&lt;h2 id=&quot;would-you-rather-&quot;&gt;Would you rather …&lt;/h2&gt;
+&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
 
-&lt;p&gt;watch a video?&lt;/p&gt;
+&lt;p&gt;You have an idea, and you want to build something. Question is, should you do it alone, or with co-founders?&lt;/p&gt;
 
-&lt;p&gt;If you’re better with visuals / audio, watch this video instead (it’s better at 1.5x ;) -&lt;/p&gt;
+&lt;p&gt;This article is broken down into three parts.&lt;/p&gt;
+
+&lt;p&gt;First section talks about Benefits and Drawbacks of Co-Founders, second one the same about Solo Founders, and the last is about – Why I chose to be a Solo Founder.&lt;/p&gt;
+
+&lt;p&gt;If you’re like most humans, you might like watching a video in 2x better. Here you go:&lt;/p&gt;
 
 &lt;center&gt;
 &lt;div class=&quot;yt-container&quot;&gt;
-    &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0og4mM9aPL0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;  
+    &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YTi5VLLYzbg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;em&gt;Note: Liking and Subscribing is Free on Youtube&lt;/em&gt;
 &lt;/center&gt;
 
-&lt;p&gt;No?&lt;/p&gt;
-
-&lt;p&gt;Ok, let’s go -&lt;/p&gt;
-
-&lt;p&gt;After leaving my full time job at Google and steady pay, I asked myself: what projects could I do that could potentially bring some passive income?&lt;/p&gt;
-
-&lt;p&gt;The project should be exciting enough for me to take a dab, should help me learn something absolutely new, and make a great story regardless of its outcome.&lt;/p&gt;
-
-&lt;h2 id=&quot;for-the-love-of-youtube&quot;&gt;For the love of Youtube&lt;/h2&gt;
-
-&lt;p&gt;I had been thinking about Youtube as a platform for quite some time because it probably ranks number 1 in my list of favorite products.&lt;/p&gt;
-
-&lt;p&gt;Second, it provides hosting videos for FREE, to everyone.&lt;/p&gt;
-
-&lt;p&gt;The second one is huge, if you think of it, especially as an engineer.&lt;/p&gt;
-
-&lt;p&gt;The biggest cost to serving videos online is their hosting, and youtube takes care of that for everyone, for free.&lt;/p&gt;
-
-&lt;p&gt;Not just that, if your videos are public and get views, it even pays you for them!&lt;/p&gt;
-
-&lt;h2 id=&quot;music-with-ai&quot;&gt;Music with AI?&lt;/h2&gt;
-
-&lt;p&gt;When Tensorflow was announced, there was also an announcement of a project that could create Music with AI (&lt;a href=&quot;https://magenta.tensorflow.org/&quot; target=&quot;_blank&quot;&gt;Project Magenta&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;This idea that AI could create music resonated with me a lot. The problem with this project was that while AI can create a lot of Music, most of it is average at best.&lt;/p&gt;
-
-&lt;center&gt;
-&lt;img src=&quot;/assets/images/youtube-python/magenta.jpg&quot; style=&quot;border: 1px solid black&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;They&apos;ve come a long way today. They provide a readymade Colab to begin with!&lt;/em&gt;
-&lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Even the most popular Artists usually have only a few super viral songs, and with AI, this percentage is an improbable fraction.&lt;/p&gt;
+&lt;h1 id=&quot;co-founders&quot;&gt;Co Founders&lt;/h1&gt;
 
-&lt;h2 id=&quot;crowdsource-discovery-of-good-music&quot;&gt;Crowdsource Discovery of Good Music?&lt;/h2&gt;
+&lt;p&gt;Look at the biggest companies of today. Apple, Google, Microsoft, Netflix, Facebook, Airbnb.&lt;/p&gt;
 
-&lt;p&gt;Let’s just say that it would take AI 100,000 songs to come up with one great one.&lt;/p&gt;
+&lt;p&gt;All of them have more than founders. Why is that a trend? Because there are many benefits to having more than one founders.&lt;/p&gt;
 
-&lt;p&gt;Can we crowd source listening to all of this music to the world and let them decide which song is the best?&lt;/p&gt;
+&lt;h2 id=&quot;co-founder-benefits&quot;&gt;Co-Founder Benefits&lt;/h2&gt;
 
-&lt;p&gt;I could create some decent videos of slideshows – programmatically of course, for each of the music files generated, and upload them to Youtube for the world to figure it out.&lt;/p&gt;
+&lt;p&gt;You probably know most of them, but do you know all? Let’s take a look:&lt;/p&gt;
 
-&lt;p&gt;If there’s some traction, it would motivate me to spend more time tweaking the AI training model, as well as earn $$ :).&lt;/p&gt;
+&lt;h3 id=&quot;1-work-distribution--complementary-skills&quot;&gt;1. Work Distribution + Complementary skills&lt;/h3&gt;
 
-&lt;h2 id=&quot;baby-steps&quot;&gt;Baby Steps&lt;/h2&gt;
+&lt;p&gt;The most obvious one is complementing each other with different disciplines needed in Startup.&lt;/p&gt;
 
-&lt;p&gt;Creating music with AI felt like a big task, so I thought, let’s just do something basic.&lt;/p&gt;
-
-&lt;p&gt;Let’s create videos of just some text converted to speech with slideshow, and upload it to Youtube programmatically. Yep, that’s a good start. Based on how that goes, we can work on creating music with AI, instead of that text -&amp;gt; speech thingy.&lt;/p&gt;
-
-&lt;p&gt;To make this MVP of a process, I decided using data from Wikipedia first. I could even incorporate live news to this concept!&lt;/p&gt;
-
-&lt;p&gt;Youtube allows uploading 50 videos daily. This means, that if I had 10 channels, I could upload 500 videos a day. Take a minute to fathom that.&lt;/p&gt;
-
-&lt;p&gt;500 x 365 = 182,500 videos a year.&lt;/p&gt;
-
-&lt;p&gt;If each video gets 10 views, that alone is over 1 million views. Very fascinating. WDYT?&lt;/p&gt;
-
-&lt;h2 id=&quot;project-sound-of-knowledge&quot;&gt;Project Sound of Knowledge&lt;/h2&gt;
-
-&lt;p&gt;I called the project: SoKnow (Sound of Knowledge). Other name I had chosen was Sound of Gold, which I forget why, but SoKnow sounded cool&lt;/p&gt;
-
-&lt;p&gt;Here’s how it would work:&lt;/p&gt;
-
-&lt;center&gt;
-&lt;img src=&quot;/assets/images/youtube-python/steps.jpg&quot; style=&quot;border: 1px solid black&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;Steps to Write Code for.&lt;/em&gt;
-&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;There are many kinds of splits, and any of the following disciplines are a great fit:&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Get Wikipedia trending queries (thanks to Wiki APIs!)&lt;/li&gt;
-  &lt;li&gt;Get the First Paragraph from each Query&lt;/li&gt;
-  &lt;li&gt;Check for Adult Content (important!)&lt;/li&gt;
-  &lt;li&gt;Convert text to Speech (I used Google’s text-to-speech API)&lt;/li&gt;
-  &lt;li&gt;Find images available for commercial use on this topic&lt;/li&gt;
-  &lt;li&gt;Stitch the images to make a slide show along with the Audio&lt;/li&gt;
-  &lt;li&gt;Upload to Youtube using Youtube’s API&lt;/li&gt;
-  &lt;li&gt;Drink lemonade and enjoy.&lt;/li&gt;
+  &lt;li&gt;Engineering&lt;/li&gt;
+  &lt;li&gt;Marketing&lt;/li&gt;
+  &lt;li&gt;Design&lt;/li&gt;
+  &lt;li&gt;Sales&lt;/li&gt;
+  &lt;li&gt;Raising Capital&lt;/li&gt;
+  &lt;li&gt;Hiring&lt;/li&gt;
+  &lt;li&gt;Operations&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;I chose Python to write this code in. Why? Because most libraries that I was going to use had best support in Python. Also, I like Python.&lt;/p&gt;
+&lt;p&gt;in that order of significance (at least according to me).&lt;/p&gt;
 
-&lt;h2 id=&quot;write-the-code&quot;&gt;Write the CODE&lt;/h2&gt;
-
-&lt;p&gt;Step by step I wrote the code to do all the steps. Yes the code was scrappy but it worked.&lt;/p&gt;
-
-&lt;p&gt;Simple API calls to get all the data, used ffmpeg to create slideshow videos. While there was no parallel processing (no threads), the process was fast enough to create 50 videos in 10-15 minutes.&lt;/p&gt;
-
-&lt;p&gt;There were many bugs of course, for example the APIs would timeout, or some special characters would break the sequence, but one by one I fixed them all. If no images were found for a particular topic, I would make it a black screen with the Title’s text on top of it.&lt;/p&gt;
-
-&lt;p&gt;Also embedded the channel watermark in one corner.&lt;/p&gt;
-
-&lt;p&gt;To upload the videos, I used &lt;a href=&quot;https://developers.google.com/youtube/v3/guides/uploading_a_video&quot; target=&quot;_blank&quot;&gt;Youtube’s API from GCP&lt;/a&gt;. What was amazing was that I could also set up Description, Title and Keywords in each of the videos through their API. Mind blown.&lt;/p&gt;
-
-&lt;p&gt;All was well in test runs, and then I ran in production.&lt;/p&gt;
-
-&lt;h2 id=&quot;youtube-knows-about-this&quot;&gt;Youtube knows about this&lt;/h2&gt;
-
-&lt;p&gt;After running the code, I started seeing bugs that I couldn’t really understand. After some debugging I realized, the issue.&lt;/p&gt;
-
-&lt;p&gt;It turns out that Youtube API has quota limitations that are different from the web UI limitations.&lt;/p&gt;
-
-&lt;p&gt;Most prominent for me was that Youtube API only allowed ~3-4 video uploads a day, and not more than that, thanks to their Quota limitations.&lt;/p&gt;
-
-&lt;p&gt;I read their &lt;a href=&quot;https://developers.google.com/youtube/v3/determine_quota_cost&quot; target=&quot;_blank&quot;&gt;Quota Costs for API requests&lt;/a&gt; much later than I should have.&lt;/p&gt;
-
-&lt;p&gt;Everything has low quota usage except the “Video -&amp;gt; Insert” resource.&lt;/p&gt;
-
-&lt;p&gt;Youtube does allow 50 uploads through their User interface, but not through APIs.&lt;/p&gt;
-
-&lt;h2 id=&quot;lets-raise-a-consult&quot;&gt;Let’s raise a consult!&lt;/h2&gt;
-
-&lt;p&gt;Why didn’t I think of reading this first? I was super mad and sad.&lt;/p&gt;
-
-&lt;p&gt;Also, of course I reached to Youtube team over their Cases consult. I wrote a big doc as much convincing information as I could add. It would take them weeks to revert, which makes sense given their size.&lt;/p&gt;
-
-&lt;p&gt;Not that I was motivated to, after several weeks of no response, I did reach out to a friend who worked in Youtube at the time. As I had thought, it didn’t really do anything. For the most part, Google is a meritocracy based company, and unless I was one of the early partners , big enough (think SocialBlade), or had good relations with someone higher in management (VP level?), it was not going to happen.&lt;/p&gt;
+&lt;h3 id=&quot;2-emotional-support&quot;&gt;2. Emotional Support&lt;/h3&gt;
 
 &lt;center&gt;
-&lt;img src=&quot;/assets/images/youtube-python/email.jpg&quot; style=&quot;border: 1px solid black&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;One of the emails I wrote. I also wrote a long doc!&lt;/em&gt;
+&lt;img src=&quot;https://media.giphy.com/media/53vLwXKBbmeic/giphy.gif&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Pulp Fiction had many lessons. Look at how they support each other!&lt;/em&gt;
 &lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;I did try to play the “Anti competitive” song in my subsequent appeals, which I thought was clever, but it didn’t work. Yes, yes, I know they are smart.&lt;/p&gt;
+&lt;p&gt;When you’re down, they might be up.&lt;/p&gt;
+
+&lt;p&gt;When they are down, you better be.&lt;/p&gt;
+
+&lt;p&gt;In any journey, emotional support is one of the most critical components of success.&lt;/p&gt;
+
+&lt;p&gt;Losing motivation to complete something we started is often due to lack of motivation, and having co-founders reduces those possibilities (except of course when everyone is down).&lt;/p&gt;
+
+&lt;h3 id=&quot;3-brainstorm-ideas&quot;&gt;3. Brainstorm ideas&lt;/h3&gt;
+
+&lt;p&gt;Not necessarily that your cofounders are smarter than you (although they should be), even talking out loud and being heard can bring some insightful ideas and thinking.&lt;/p&gt;
+
+&lt;h3 id=&quot;4-focus&quot;&gt;4. Focus&lt;/h3&gt;
 
 &lt;center&gt;
-&lt;img src=&quot;https://i.giphy.com/media/1iu8uG2cjYFZS6wTxv/giphy.webp&quot; style=&quot;border: 1px solid black&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;I&apos;m innocent.&lt;/em&gt;
+&lt;img src=&quot;https://media.giphy.com/media/l0K4i4Cm18z1X1t16/giphy.gif&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Yes, deep down you want this.&lt;/em&gt;
 &lt;/center&gt;
 
-&lt;p&gt;After several back and forths, they did increase my quota from 10,000 a day to 15,000 per day. To some degree that was fair, because it’s not like my content was going to make grow Youtube’s userbase, or improve user experience somehow.&lt;/p&gt;
+&lt;p&gt;You, your friends, and everyone else has tonnes of ideas.
+Digression is easy. It’s the evil. Having co-founders can help everyone stay on course whenever there’s a distraction. Be it an idea, or a fun ploy.&lt;/p&gt;
 
-&lt;p&gt;For few days, I uploaded videos manually to Youtube, and then set their Title / Description and Keywords programmatically. But as you can guess it wasn’t with the same excitement as before.&lt;/p&gt;
+&lt;p&gt;Having more ideas than bandwidth, feature creep, deprioritizing important things are just some of the common digressions. Having a cofounding team helps keeps everyone accountable and focused on one goal.&lt;/p&gt;
 
-&lt;h2 id=&quot;what-did-the-videos-look-like&quot;&gt;What did the videos look like?&lt;/h2&gt;
-
-&lt;p&gt;You can find all Channels with this &lt;a href=&quot;https://www.youtube.com/results?search_query=soknow&amp;amp;sp=EgIQAg%253D%253D&quot; target=&quot;_blank&quot;&gt;youtube search query&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Here’s a sample video.&lt;/p&gt;
+&lt;h3 id=&quot;5-push&quot;&gt;5. Push&lt;/h3&gt;
 
 &lt;center&gt;
-&lt;div class=&quot;yt-container&quot;&gt;
-    &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kNJ-n-V7iH0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;  
+&lt;img src=&quot;https://media.giphy.com/media/ZJFmfvMutiQ0M/giphy.gif&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Push.&lt;/em&gt;
 &lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;what-happened-to-the-content&quot;&gt;What Happened to the Content?&lt;/h2&gt;
+&lt;p&gt;Cofounders mean commitment. You commited to doing X, where is it? When would Y be done?&lt;/p&gt;
 
-&lt;p&gt;Well after I left the project, I came back to check on the videos after two years. The metrics are fascinating to look at, so I share those metrics below.&lt;/p&gt;
+&lt;p&gt;When you’re feeling low, unmotivated, this camaraderie can help give you that nudge enough to reach ignition temperature of enthusiasm and excitement.&lt;/p&gt;
 
-&lt;p&gt;Note: I did nothing to grow these channels. All videos in these channels were the output of a simple Python code, except of course, I had to upload most of the videos manually, and then update the metadata through code.&lt;/p&gt;
-
-&lt;h3 id=&quot;metrics-from-two-years&quot;&gt;Metrics from Two Years&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Channel&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Views&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Watch Time&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;Subscribers&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCI_NijKIiCL7gmm0XLRB3dw&quot; target=&quot;_blank&quot;&gt;SoKnow French &lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;5.4K&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;90 Hours&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;53&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCQw6QaeO2ranG3TyH51dTrw&quot; target=&quot;_blank&quot;&gt;SoKnow Hindi&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;21K&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;345 Hours&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;173&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCI_NijKIiCL7gmm0XLRB3dw&quot; target=&quot;_blank&quot;&gt;SoKnow English &lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;26K&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;112 Hours&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;37&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCv4dJTeeznvVDysZD3SjLSw&quot; target=&quot;_blank&quot;&gt;SoKnow Korean &lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;4.2K&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;23 Hours&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;7&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCe9qPNs735OkJkoxtcTCMZw&quot; target=&quot;_blank&quot;&gt;SoKnow Japanese &lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;35.3K&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;155 Hours&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;24&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCfQFKG8Z9Qo2j_BLjrte53w&quot; target=&quot;_blank&quot;&gt;SoKnow Russian &lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;6.6K&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;82 Hours&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;14&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCwMA1aBSrKba7B7Vx2NT7AQ&quot; target=&quot;_blank&quot;&gt;SoKnow German &lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;3.5K&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;18.3 Hours&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;5&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCDGLnvUNKCZMB13ggreraWQ&quot; target=&quot;_blank&quot;&gt;SoKnow Finnish &lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;7.4K&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;7.6 Hours&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;8&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCpwpUZsQ8SO8j71ckWTD8yw&quot; target=&quot;_blank&quot;&gt;SoKnow Arabic &lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;683&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;2.8 Hours&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Total&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;110,000&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;836 Hours&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;322&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Two years, and even all channels combined don’t reach the “minimum” criteria for monetization (4,000 watch time and 1000 subs). But it’s very likely that it would have, if the content was uploaded for 365 days (instead of 2) along with consistent improvements.&lt;/p&gt;
-
-&lt;h2 id=&quot;this-is-not-adding-value&quot;&gt;This is not adding value!&lt;/h2&gt;
-
-&lt;p&gt;While I agree that the videos uploaded might not have added as much value to the world, but I’m pretty sure that some users did find them useful. We can confirm this with the number of Likes on the videos, and watch time.&lt;/p&gt;
+&lt;h3 id=&quot;6-have-fun-on-the-journey&quot;&gt;6. Have fun on the journey&lt;/h3&gt;
 
 &lt;center&gt;
-&lt;img src=&quot;https://i.giphy.com/media/YWAiayVul0JLq/giphy.webp&quot; style=&quot;border: 1px solid black&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;It&apos;s all about perspective.&lt;/em&gt;
+&lt;img src=&quot;https://media.giphy.com/media/CjP6x9rW7LET6dEbJr/giphy.gif&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Yes, deep down you want this.&lt;/em&gt;
 &lt;/center&gt;
 
-&lt;p&gt;Most people learn things through videos, and a lot of information that’s in English is not readily available in other languages, for example look at the SoKnow Japanese Channel. Not only would the search engines fail at bringing information to those users through search – discovering and translating the content is another major hurdle for users in different languages.&lt;/p&gt;
+&lt;p&gt;Have you ever gone to an amusement park alone? You’d notice that it’s a lot more fun when you’re with friends. It can, to be honest, suck going there alone. The reason is because something is fun when you get to share it with others who also experienced it.&lt;/p&gt;
 
-&lt;p&gt;“Quality” content is subjective, and I can easily argue that majority of content online today is not only useless, but harmful.&lt;/p&gt;
+&lt;p&gt;Building something is not an act, it’s a process; a journey.&lt;/p&gt;
 
-&lt;h2 id=&quot;some-learnings-from-this-experiment&quot;&gt;Some Learnings from this Experiment&lt;/h2&gt;
+&lt;p&gt;When you’re on this journey with people that you have bond with, you’d have more memories, and a lot more fun.&lt;/p&gt;
 
-&lt;p&gt;There were lot of fundamental learnings from this little experiment. Some of them are “of course”, when you think of them deeply, probably not.&lt;/p&gt;
+&lt;h2 id=&quot;co-founder-drawbacks&quot;&gt;Co-Founder Drawbacks&lt;/h2&gt;
 
-&lt;h3 id=&quot;1-break-down-of-grand-vision-into-mini-ideas&quot;&gt;1. Break down of Grand Vision into mini ideas&lt;/h3&gt;
+&lt;p&gt;But it has its cons too! Some of them big enough to make it a really bad experience.&lt;/p&gt;
 
-&lt;p&gt;I’m happy I didn’t go down the path of first learning how to build music with AI. It would’ve taken me fairly long time.&lt;/p&gt;
+&lt;p&gt;Read through everything before jumping into a work marriage.&lt;/p&gt;
 
-&lt;p&gt;It’s very likely that the fact that Youtube Quota is a thing, and it’s so limiting for uploading videos would’ve skipped me for months, and I would have regretted spending time making sub-par music files built with AI.&lt;/p&gt;
+&lt;h3 id=&quot;a-hunt-is-hard&quot;&gt;a. Hunt is Hard&lt;/h3&gt;
 
-&lt;p&gt;Thanks to using Wikipedia text, I was able to identify this issue relatively early on.&lt;/p&gt;
+&lt;p&gt;If you don’t have a co founder, you’d end up finding one, and it’s not easy. You’ll spend lot of energy and time. It’s always best if you met someone in college, or worked with them in a team, and then later on decided to start the company together.&lt;/p&gt;
 
-&lt;h3 id=&quot;2-limitations-of-dependencies&quot;&gt;2. Limitations of Dependencies&lt;/h3&gt;
+&lt;p&gt;If you don’t have anyone like that, then searching for people can take a lot of time, energy, and frustration.&lt;/p&gt;
 
-&lt;p&gt;If you’ve ever played Slither.io, or at least heard of it, note that the creator built it mostly alone, and declined to use Cloud services to host the game. He ran all of it from his own house on bare metal.&lt;/p&gt;
+&lt;h3 id=&quot;b-decision-making&quot;&gt;b. Decision Making&lt;/h3&gt;
 
-&lt;p&gt;Most great engineers don’t like dependencies, and there’s a valid reason for that. The more dependencies you have, the more areas of surprise elements there will always be.&lt;/p&gt;
+&lt;p&gt;Did you ever have a manager who won’t understand what you’re saying, and you have to convince them to do something?&lt;/p&gt;
+
+&lt;p&gt;Perhaps you watched a movie where the Protagonist is stuck explaining to their bosses that the world will come to an end if they don’t evacuate now.&lt;/p&gt;
+
+&lt;p&gt;If you’re like me, an introvert-ish personality, it can be frustrating, time and energy consuming to convince someone when you need to make a decision.&lt;/p&gt;
+
+&lt;p&gt;This is one of the biggest drawbacks of having Co Founders. If they are not aligned on the same page, then convincing them can take more time and energy than actually trying something out.&lt;/p&gt;
+
+&lt;h3 id=&quot;c-too-much-discussion-too-little-action&quot;&gt;c. Too Much Discussion. Too Little Action.&lt;/h3&gt;
+
+&lt;p&gt;Building a new feature? You could spend entire day, or days, or even weeks just “discussing” it.&lt;/p&gt;
+
+&lt;p&gt;Too much documentation, chats, discussions, push backs, all of them can make you really slow, instead of actually making what you intended to in the first place.&lt;/p&gt;
+
+&lt;p&gt;In a startup, it’s almost always more fruitful to take action, than to “discuss”.&lt;/p&gt;
+
+&lt;p&gt;Lot of things are limited in startups, most important of them: time and energy. You must do everything to conserve these two.&lt;/p&gt;
+
+&lt;h3 id=&quot;dependencies&quot;&gt;Dependencies.&lt;/h3&gt;
+
+&lt;p&gt;If you go to r/startups, you’d find 1 out of 4 posts is about them wanting out, or their co-founders leaving.&lt;/p&gt;
+
+&lt;p&gt;There could any number of reasons, from personal situation, to change in mindset or things just not working out between the co founders / product.&lt;/p&gt;
+
+&lt;p&gt;Imagine you worked super hard in setting up the marketing for the product. There’s lot of great content, partnership deals with Creators, and SEO content to go with it. But… the tech co-founder decides to leave the company.&lt;/p&gt;
+
+&lt;p&gt;What do you do next? Your startup might not work any more because you don’t have the product and finding a new cofounder can take ages.&lt;/p&gt;
+
+&lt;p&gt;Dependency can be dangerous, and if you don’t know anything about some part of the work, it’s possible that if one of the cards is removed, the entire pyramid falls apart.&lt;/p&gt;
+
+&lt;p&gt;Ideally you’d like enough exposure that even if one of the co-founders decides to leave, you know how to take things forward, or find the right resources for it.&lt;/p&gt;
+
+&lt;h3 id=&quot;mismatch&quot;&gt;Mismatch&lt;/h3&gt;
+
+&lt;p&gt;I keep reading the phrase “Toxic environment” in different posts. If your co-founders have a different mindset in the long term vision, or difficult attitude, all of it can lead to a Toxic environment.&lt;/p&gt;
+
+&lt;p&gt;Remember the reason you started a company? It was to define and set the culture, but if you’re stuck with co-founders who don’t match the culture you wanted, what do you do? You can’t fire them.&lt;/p&gt;
+
+&lt;p&gt;Do you just leave your incredible idea for the future?&lt;/p&gt;
+
+&lt;h2 id=&quot;not-a-drawback&quot;&gt;“Not a Drawback”&lt;/h2&gt;
+
+&lt;p&gt;I listed all the drawbacks, but one thing I want to underline is something that’s not a drawback.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Equity&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Don’t make your decision of not having co-founders because you might have to split the equity.&lt;/p&gt;
+
+&lt;p&gt;Remember, 10% of 10 million » 100% of $0.&lt;/p&gt;
+
+&lt;h2 id=&quot;solo-founder-benefits&quot;&gt;Solo Founder Benefits&lt;/h2&gt;
+
+&lt;p&gt;All the drawbacks of co-founders are essentially Solo Founder advantages. I won’t repeat them and only include things not included above.&lt;/p&gt;
+
+&lt;h3 id=&quot;learn-learn-learn&quot;&gt;Learn Learn Learn&lt;/h3&gt;
+
+&lt;p&gt;Why are you doing a startup anyways? You could get a job at FAANG or some big company in your field and earn a lot there.&lt;/p&gt;
+
+&lt;p&gt;Well, you get to learn a lot.&lt;/p&gt;
+
+&lt;p&gt;If you enjoy learning, you’ll love the journey of doing things alone because they will be exponential.&lt;/p&gt;
+
+&lt;p&gt;From writing code to&lt;/p&gt;
+
+&lt;h2 id=&quot;drawbacks-of-being-a-solo-founder&quot;&gt;Drawbacks of being a Solo Founder&lt;/h2&gt;
+
+&lt;p&gt;And the list is way too-ooo long.&lt;/p&gt;
+
+&lt;h3 id=&quot;youll-work-a-lot&quot;&gt;You’ll work a lot.&lt;/h3&gt;
+
+&lt;p&gt;I doubt this one needs any explanation whatsoever.&lt;/p&gt;
+
+&lt;h3 id=&quot;fail-a-lot-alone&quot;&gt;Fail a lot. Alone.&lt;/h3&gt;
+
+&lt;p&gt;Failing is part of the journey. But failing alone can suck. When you fail at something together, it’s easier to laugh it off, and push each other to march ahead.&lt;/p&gt;
+
+&lt;p&gt;But what when you’re alone? There’s no laugh, only failure, and trust me it can hurt.&lt;/p&gt;
+
+&lt;h3 id=&quot;no-emotional-support&quot;&gt;No emotional support.&lt;/h3&gt;
+
+&lt;p&gt;Happiness increases by sharing, and sorrow decreases. But if you have no-one to share with, there’s no emotional support.&lt;/p&gt;
+
+&lt;h3 id=&quot;doubtful-investors-and-rightly-so&quot;&gt;Doubtful Investors, and Rightly So.&lt;/h3&gt;
+
+&lt;p&gt;Accelerators, and investors in general recommend having co-founders. This is in part because they understand how hard it is to build and run a startup alone.&lt;/p&gt;
+
+&lt;h3 id=&quot;master-of-all&quot;&gt;Master of ALL&lt;/h3&gt;
 
 &lt;center&gt;
-&lt;img src=&quot;https://i.giphy.com/media/1wRulyhp5INhA8uDFv/giphy.webp&quot; style=&quot;border: 1px solid black&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;Yes, it&apos;s worth it.&lt;/em&gt;
+&lt;img src=&quot;https://media.giphy.com/media/eBQqrM0MCGJhu/giphy-downsized-large.gif&quot; /&gt;&lt;br /&gt;
+&lt;em&gt;Yes, deep down you want this.&lt;/em&gt;
 &lt;/center&gt;
 
-&lt;p&gt;Before starting a project, always note the limitations of the services you’re planning on using.&lt;/p&gt;
+&lt;p&gt;As a lone founder, you must known at least part of everything.&lt;/p&gt;
 
-&lt;p&gt;Note: Smarter thing would be to first write a Design doc about what the project is, what are the dependencies etc., but their efficacy for personal projects is questionable.&lt;/p&gt;
+&lt;p&gt;Have an idea?
+You should know how to design.&lt;/p&gt;
 
-&lt;p&gt;What I definitely recommend is to create a sort of check list or breakdown for myself, to make sure all grounds are covered, but in this case, “quota limitation” was left out, thanks to my mind subconciously convincing me about “50 UI uploads”&lt;/p&gt;
+&lt;p&gt;Want to build?
+You should know how to code.&lt;/p&gt;
 
-&lt;h3 id=&quot;3-beware-of-derivative-products&quot;&gt;3. Beware of Derivative Products&lt;/h3&gt;
+&lt;p&gt;Go to production?
+Well, you should know how to deploy.&lt;/p&gt;
 
-&lt;p&gt;Maybe Youtube had the API quota set to 50 uploads a day, but they could still change it anytime.&lt;/p&gt;
+&lt;p&gt;Go to market?
+You should know how to market.&lt;/p&gt;
 
-&lt;p&gt;Youtube is an independent product, continuously being improved, experimented and built upon.&lt;/p&gt;
+&lt;p&gt;Create content?
+You should know how to make videos, and write blogs.&lt;/p&gt;
 
-&lt;p&gt;If you’re building a product that’s a derivative of another product, it will always have the big risk of failing at anytime if the product you’re relying on falters.&lt;/p&gt;
+&lt;p&gt;Get revenue?
+You should know how to create funnels and close.&lt;/p&gt;
 
-&lt;h2 id=&quot;was-it-interesting&quot;&gt;Was it interesting?&lt;/h2&gt;
+&lt;p&gt;Hire? Taxes? Administration? Raising Capital?
+…&lt;/p&gt;
 
-&lt;p&gt;I hope you found this experiment interesting and it brings out some thoughts and ideas in your mind.&lt;/p&gt;
+&lt;p&gt;My point being, solo founders need to know everything, as everything in the startup process is an important discipline.&lt;/p&gt;
 
-&lt;p&gt;If you’d like to share your thoughts, I would love to hear them. Feel free to &lt;a href=&quot;/contact&quot;&gt;connect with me&lt;/a&gt;, or subscribe to my future posts below.&lt;/p&gt;
+&lt;h1 id=&quot;why-did-i-chose-to-start-be-a-solo-founder&quot;&gt;Why did I chose to start be a solo founder&lt;/h1&gt;
 
-&lt;p&gt;Alternately leave a comment on the &lt;a href=&quot;https://www.youtube.com/watch?v=0og4mM9aPL0&quot; target=&quot;_blank&quot;&gt;Youtube video&lt;/a&gt;. Or wherever you found this article.&lt;/p&gt;
+&lt;p&gt;Given so many benefits of having co-founders, you must be wondering, why did I choose to go solo?&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;well-i-didnt-really-have-an-option&quot;&gt;Well, I didn’t really have an option&lt;/h2&gt;
 
-&lt;h2 id=&quot;closing-thoughts&quot;&gt;Closing thoughts&lt;/h2&gt;
+&lt;p&gt;All the connections I had at this point&lt;/p&gt;
 
-&lt;p&gt;I was bummed that it didn’t work the way I had hoped it to, but I am content that I tried it.&lt;/p&gt;
+&lt;h2 id=&quot;personality-trait&quot;&gt;Personality Trait&lt;/h2&gt;
 
-&lt;p&gt;If you’d like to take a look at the code, this Gist was one of the most updated ones: &lt;a href=&quot;https://gist.github.com/sudcha23/2fb16778e97962d26150753533e0107f&quot; target=&quot;_blank&quot;&gt; Github Gist of Code here&lt;/a&gt;. Note the code is very scrappy, not well structured, but it works. You are free to use it, copy it and break it.&lt;/p&gt;
+&lt;p&gt;Just observing my life experiences, I realized, and came to terms with, that I’m really efficient when I work alone.&lt;/p&gt;
 
-&lt;p&gt;At least a hundred plus channels on youtube have done it incredibly well, for example this one: &lt;a href=&quot;https://www.youtube.com/watch?v=XwA2GkLiA5c&quot; target=&quot;_blank&quot;&gt;Emma Saying which has over 600K subs&lt;/a&gt;, and it just outputs &lt;strong&gt;one word&lt;/strong&gt; from Google Text-to-Speech and makes a video about “pronunciation”. Most of them had much earlier start which was critical to their success.&lt;/p&gt;
+&lt;p&gt;The best things, and breakthroughs have happened in the moments when I was alone, and with time I accepted and embraced this reality.&lt;/p&gt;
 
-&lt;p&gt;I also wish I had started my own Youtube channel before, but hey, better late than never. I bet you’ve probably had some hacky, interesting ideas too, and all I want to say is → Just do it!&lt;/p&gt;
+&lt;h2 id=&quot;love-for-learning&quot;&gt;Love for Learning&lt;/h2&gt;
+
+&lt;p&gt;I love learning meaningful things, and going through this experience has expanded my horizons beyond what I would have thought.&lt;/p&gt;
+
+&lt;p&gt;Today, I know everything necessary from&lt;/p&gt;
+
+&lt;p&gt;Am I successful? That depends on definition, but have I learnt a lot? You bet.&lt;/p&gt;
+
+&lt;h1 id=&quot;which-path-should-you-choose&quot;&gt;Which path should you choose?&lt;/h1&gt;
+
+&lt;p&gt;Like most great answers, the answer to this question is also: “It Depends”.&lt;/p&gt;
+
+&lt;p&gt;In 90% cases I’d suggest that should start a company with a cofounder.&lt;/p&gt;
+
+&lt;p&gt;Look at your personality. What do you really value? Why are you starting a company, or building a product?&lt;/p&gt;
+
+&lt;p&gt;Do you know someone that could fill the things you have little experience in?&lt;/p&gt;
+
+&lt;p&gt;Are you willing to learn everything? You can’t hire someone to do it for you, even if you do, you’d need to know it yourself.&lt;/p&gt;
+
+&lt;p&gt;It’s never black and white, but the one thing I recommend is to get started and take some action. It’s the only correct answer. Well, for the most part.&lt;/p&gt;
+
+&lt;p&gt;Whatever you do, keep the equity out of the reasoning.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1 id=&quot;curious-about-what-i-am-building&quot;&gt;Curious about what I am building?&lt;/h1&gt;
 
-&lt;h2 id=&quot;what-am-i-building-now&quot;&gt;What am I building now?&lt;/h2&gt;
-
-&lt;p&gt;I’m currently working on YRL - A platform that enables you to make partnership deals based on CPC and CPA, just like how Adsense and Adwords does it for Google.&lt;/p&gt;
-
-&lt;p&gt;&lt;button class=&quot;customized-button&quot; onclick=&quot; window.open(&apos;https://getyrl.com/business&apos;,&apos;_blank&apos;)&quot;&gt;
-YRL for Businesses
-&lt;/button&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-</description>
-        <pubDate>Thu, 21 Oct 2021 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/i-made-youtube-videos-using-python/</link>
-        <guid isPermaLink="true">http://localhost:4000/i-made-youtube-videos-using-python/</guid>
-        
-        
-        <category>General</category>
-        
-        <category>Engineering</category>
-        
-      </item>
-    
-      <item>
-        <title>Creating Value isn&apos;t Secret to Success. It&apos;s Common Sense.</title>
-        <description>&lt;p&gt;I keep hearing the phrase “Value Creation leads to Wealth”. It’s true to a large degree, but not the complete truth.&lt;/p&gt;
-
-&lt;h1 id=&quot;value-creation--wealth&quot;&gt;Value Creation =&amp;gt; Wealth?&lt;/h1&gt;
-
-&lt;p&gt;People in general tend to overuse the phrase “Value Creation” all the time, simply because it’s good to hear.&lt;/p&gt;
-
-&lt;p&gt;Oh, look at Google, Amazon and Apple: they are all creating value for a large number of users, and that’s why they are so successful! It’s logical. Makes sense. And satisfies our inner desire of becoming wealthy with coherence.&lt;/p&gt;
-
-&lt;center&gt;
-&lt;div class=&quot;yt-container&quot;&gt;
-    &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ZqbiIrIV8ps?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt; 
-&lt;em&gt;If you&apos;re like me and prefer visuals, here&apos;s the video.&lt;/em&gt;
-&lt;/center&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;The truth is every startup every business is creating something of value. There’s no startup or business that’s just trying to fraud users or trying to build something that’s completely useless.&lt;/p&gt;
-
-&lt;p&gt;Actually, I take that back. There are some startups who are making stuff like that, and many of those have been very successful in the past.&lt;/p&gt;
-
-&lt;h1 id=&quot;world-is-irrational&quot;&gt;World is IRRATIONAL&lt;/h1&gt;
-
-&lt;p&gt;The world is not a rational but an irrational place. A lot of things that happen don’t necessarily have to make sense. They could make sense if we change our perspective.&lt;/p&gt;
-
-&lt;center&gt;
-&lt;img src=&quot;https://i.giphy.com/media/Kg1QtwhBRGPU4/giphy.webp&quot; style=&quot;border: 1px solid black&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;We are Irrational.&lt;/em&gt;
-&lt;/center&gt;
-
-&lt;p&gt;Look at most startups in the tech industry and over 90% of them fail without actually making profit for the founders (unless of course they raised a lot of capital).&lt;/p&gt;
-
-&lt;p&gt;But look at the non-tech industry, for ex. fashion, clothing, mock jewellery and so on and you will see that a large number of businesses in that industry are hyper successful.&lt;/p&gt;
-
-&lt;p&gt;Yes, there are not so many hundred billion dollar companies but there are many businesses which are fairly successful.&lt;/p&gt;
-
-&lt;p&gt;As an example let’s take “drop shipping”.&lt;/p&gt;
-
-&lt;p&gt;If you don’t know what it is read on, else skip to the next section.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-is-drop-shipping&quot;&gt;What is Drop Shipping?&lt;/h2&gt;
-
-&lt;p&gt;Imagine someone wants to buy product X. There’s a seller Y that sells X but has a poor site, design and reach. You create a better site, do great marketing, and start getting organic traffic.&lt;/p&gt;
-
-&lt;p&gt;Everytime someone places an order to your site, you instead make that order with original seller Y, and give the customer’s address for delivery.&lt;/p&gt;
-
-&lt;p&gt;You neither had a product, nor managed any part of the entire product’s journey. But you made a profit at customer’s expense.&lt;/p&gt;
-
-&lt;h2 id=&quot;value-creation-in-drop-shipping&quot;&gt;“Value Creation” in Drop Shipping&lt;/h2&gt;
-
-&lt;p&gt;There’s no “Value Creation” in Drop Shipping. Product already existed, need and customers already existed. You simply created a fancy website, marketing, and an added commission to the product. Essentially a longer route for the same product sale.&lt;/p&gt;
-
-&lt;p&gt;Well you may say that this new fancy site, and its listing helps users to discover the product.&lt;/p&gt;
-
-&lt;p&gt;But the truth is that the users would’ve found the right website on their own if the internet wasn’t stuffed with these unnecessary complicated routes of Drop Shipping websites.&lt;/p&gt;
-
-&lt;p&gt;It’s a similar reason why Amazon is full of product listings of the same product with different difficult to pronounce Names.&lt;/p&gt;
-
-&lt;h2 id=&quot;1000-t-shirts&quot;&gt;$1000 T-Shirts&lt;/h2&gt;
-
-&lt;p&gt;Another industry is clothing, for ex. t-shirts, dresses and common wearables.&lt;/p&gt;
-
-&lt;p&gt;Most white T-Shirts for example cost three or four dollars in a regular store but there are many brands which are selling the same t-shirt for hundreds, or even thousands of dollars.&lt;/p&gt;
-
-&lt;center&gt;
-&lt;img src=&quot;/assets/images/value-creation/tshirt.jpg&quot; style=&quot;border: 1px solid black&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;They are generous. They didn&apos;t charge $699. $9 savings for you :)&lt;/em&gt;
-&lt;/center&gt;
-
-&lt;p&gt;Why? Because the expensive T-Shirts are branded much differently.&lt;/p&gt;
-
-&lt;p&gt;They hire famous, good looking models, and run expensive Ads to build this brand value and image over time.&lt;/p&gt;
-
-&lt;h2 id=&quot;events-from-last-year&quot;&gt;Events from Last Year!&lt;/h2&gt;
-
-&lt;p&gt;Do all the events in 2020-2021 make logical reasoning of Value Creation?&lt;/p&gt;
-
-&lt;center&gt;
-&lt;img src=&quot;https://i.giphy.com/media/rBTcNBjvu8WVLWxcrP/giphy-downsized-large.gif&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;Take Off.&lt;/em&gt;
-&lt;/center&gt;
-
-&lt;p&gt;From Meme Currencies (yes, Doge Coin), the undisputed and most controversial NFTs, and all the other stocks that grew 10x because of Short Squeeze, there are enough examples that we can discuss with no end in sight.&lt;/p&gt;
-
-&lt;h1 id=&quot;what-gives&quot;&gt;What gives?&lt;/h1&gt;
-
-&lt;center&gt;
-&lt;img src=&quot;https://i.giphy.com/media/3o7btPCcdNniyf0ArS/giphy.webp&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;Exacty.&lt;/em&gt;
-&lt;/center&gt;
-
-&lt;p&gt;The reason for all of the above examples is not value creation. That’s inherent in everything we as humans do.&lt;/p&gt;
-
-&lt;p&gt;The reason for success of these products, ideas and services is &lt;b&gt;perceived value creation&lt;b&gt;&lt;/b&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;In other words if you make something that has a very high perceived value even though the product may not be of high value, the chances or the likelihood that you will succeed is very high.&lt;/p&gt;
-
-&lt;p&gt;Whereas if you create something of value which has nil or no perceived value it’s going to fail regardless of how big an impact that may have on the world.&lt;/p&gt;
-
-&lt;p&gt;You may say this makes a lot of sense and it’s also common sense but it’s not. If it were, most of the businesses and startups would not start with creating a product, by spending hours and hours of writing code and building a product.&lt;/p&gt;
-
-&lt;p&gt;Instead they would spend that time and resource in making something of high perceived value, even before it exists.&lt;/p&gt;
-
-&lt;p&gt;The question is how do you make something of high perceived value?&lt;/p&gt;
-
-&lt;p&gt;The answer is by ‘not making a product’, but instead spending all the energy and resources in making the hype around the product.&lt;/p&gt;
-
-&lt;p&gt;It’s commonly known as Marketing. The loop hole in the Value Creation theory.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;yrl--viral&quot;&gt;YRL → VIRAL&lt;/h1&gt;
-
-&lt;p&gt;While you’re still here, you might want to check out what I’m building.&lt;/p&gt;
-
-&lt;p&gt;It’s “real value creation” to create “perceived value creation”.&lt;/p&gt;
-
-&lt;p&gt;YRL enables individuals to create CPC and CPA campaigns to partner with any creator.&lt;/p&gt;
+&lt;p&gt;I’m building YRL - a marketing platform that makes it super easy for Businesses and Creators to partner on the basis of Cost per Click / Conversion.&lt;/p&gt;
 
 &lt;p&gt;&lt;button class=&quot;customized-button&quot; onclick=&quot; window.open(&apos;https://getyrl.com/business&apos;,&apos;_blank&apos;)&quot;&gt;
 YRL for Businesses
@@ -483,152 +298,12 @@ YRL for Businesses
 &lt;hr /&gt;
 
 </description>
-        <pubDate>Fri, 01 Oct 2021 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/dont-just-create-value/</link>
-        <guid isPermaLink="true">http://localhost:4000/dont-just-create-value/</guid>
+        <pubDate>Fri, 08 Oct 2021 00:00:00 +0530</pubDate>
+        <link>https://loopthrough-i-j.github.io/my-blog/solo-cofounders/</link>
+        <guid isPermaLink="true">https://loopthrough-i-j.github.io/my-blog/solo-cofounders/</guid>
         
         
         <category>Startup</category>
-        
-      </item>
-    
-      <item>
-        <title>&apos;The Unconventional Founder&apos; Youtube Channel</title>
-        <description>&lt;p&gt;After overcoming a deeply rooted resistance, I finally started a Youtube channel. This post explains why it was so difficult, and what understanding convinced me to do it.&lt;/p&gt;
-
-&lt;p&gt;I believe we learn better with visuals than reading, so here you go:&lt;/p&gt;
-
-&lt;center&gt;
-&lt;div class=&quot;yt-container&quot;&gt;
-    &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/UPbJG26Y9iE?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt; 
-&lt;em&gt;Namastey! Like and Subscribe :)&lt;/em&gt;
-&lt;/center&gt;
-
-&lt;p&gt;Still prefer to read? Read on.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-hesitation&quot;&gt;The Hesitation&lt;/h2&gt;
-
-&lt;p&gt;I’ve been deeply inspired by great tech founders from Larry Page, to Elon Musk. From Steve Jobs to Jeff Bezos. All of them have built incredible products and companies, though none of them have been active content creators.&lt;/p&gt;
-
-&lt;p&gt;Everytime you see a video of them on Youtube, 99% of the times it would be that of an interview in a conference. The rest 1% is when they are introducing / launching a product to the world.&lt;/p&gt;
-
-&lt;p&gt;From the founders of Youtube all the way to founders of Alphabet / Google, none of them have actively created content themselves (except of course, the first video on Youtube).&lt;/p&gt;
-
-&lt;p&gt;There are few simple reasons for this.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Creating Content takes time, which tech founders could be spending in building products, teams and scaling their services.&lt;/li&gt;
-  &lt;li&gt;Technology startup founders usually have a different type of personality than those of content creators.&lt;/li&gt;
-  &lt;li&gt;In tech sector, even today, writing is a much more preferred medium, and a more powerful way of conveying messages to the world, with Audio only podcasts as probably the closest cousin. No wonder Elon Musk sticks to Twitter, and so do 99.9% of other people in tech industry.&lt;/li&gt;
-  &lt;li&gt;Tech founders and engineers prefer to be private in general. You’d never really know where these founders are, or how they are spending their time. It’s probably because they understand technology and its drawbacks way more than most people can.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It’s better to be wealthy and anonymous than to be rich and famous.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I have always identified myself to be one of those founders that remain private, away from public eye. Spending time hacking problems that impacted everyone.&lt;/p&gt;
-
-&lt;p&gt;But in the last few months, something changed. As if a button flipped, and all of a sudden I wanted to be a content creator. A Youtuber as it aligns the most with my personality, and very committed to creating videos about anything and everything.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-switch-flip&quot;&gt;The Switch Flip&lt;/h2&gt;
-
-&lt;p&gt;There wasn’t one single moment, but a lots of them that one after the other just kept blowing up my mind.&lt;/p&gt;
-
-&lt;h3 id=&quot;1-share-mistakes-and-learnings&quot;&gt;1. Share Mistakes and Learnings&lt;/h3&gt;
-
-&lt;p&gt;As a technology startup founder, if there’s one thing I’ve been doing consistently is making mistakes, and learning from them. When you undergo an experience like that, there’s an internal voice that wants to share those learnings with someone who may find it useful.&lt;/p&gt;
-
-&lt;p&gt;It’s more stylish and pep thing to be a startup founder today than it has ever been. There’s an exponential increase in the number of startups worldwide, and I believe we are still at the beginning of this global explosion.&lt;/p&gt;
-
-&lt;p&gt;Every single year to come, there will be more entrepreneurs than there have ever been in the past, which means if I share my learnings, the potential audience that might benefit from those learnings will continue to grow.&lt;/p&gt;
-
-&lt;h3 id=&quot;2-give-back&quot;&gt;2. Give Back&lt;/h3&gt;
-
-&lt;p&gt;Like you and everyone else today, most of what I’ve learned is from others online. Be it through Blogs or Youtube videos, then why shouldn’t I give something in return as well?&lt;/p&gt;
-
-&lt;h3 id=&quot;3-not-enough-practical-channels&quot;&gt;3. Not enough Practical Channels&lt;/h3&gt;
-
-&lt;p&gt;There are a lot of channels on youtube that teach how to write code. There are also lot of channels which talk about startup “wisdom”. But I still feel the gap between the two categories.&lt;/p&gt;
-
-&lt;p&gt;There’s still not enough video content that takes someones from coming up with an idea, all the way through executing it IRL. There’s a lot of content that does this well but it’s spread sparsely through blogs, and reddit posts.&lt;/p&gt;
-
-&lt;p&gt;I’m hopeful that I can help in reducing this gap.&lt;/p&gt;
-
-&lt;h3 id=&quot;4-yrl--get-yrl-go-viral&quot;&gt;4. YRL : Get Yrl, Go Viral!&lt;/h3&gt;
-
-&lt;p&gt;I built a product called YRL (&lt;a href=&quot;getyrl.com&quot;&gt;getyrl.com&lt;/a&gt;), where Businesses and Creators can partner with Cost per Click and Cost per Conversion campaigns. It’s blazing fast, simple and easy to use. I’d call it Robinhood of digital and affiliate marketing.&lt;/p&gt;
-
-&lt;p&gt;&lt;button class=&quot;customized-button&quot; onclick=&quot; window.open(&apos;https://www.youtube.com/channel/UCgumVa37_24jNvYizs7kUiw&apos;,&apos;_blank&apos;)&quot;&gt;
-Checkout YRL →
-&lt;/button&gt;&lt;/p&gt;
-
-&lt;p&gt;I made the product as a Business because marketing a product is really hard today thanks to the ocean of content online. But the story was still incomplete.&lt;/p&gt;
-
-&lt;p&gt;YRL is not just for Businesses, its more for Creators. If I want to make YRL successful, being a Business is not enough. I should be a content creator myself.&lt;/p&gt;
-
-&lt;h3 id=&quot;5-pushing-comfort-zone&quot;&gt;5. Pushing Comfort Zone&lt;/h3&gt;
-
-&lt;p&gt;Recording, Editing, Publishing, and Promoting content in its entirety is a different ball game than anything related to writing code, thinking of architecture. or building a product. Coding skills don’t help at all to be honest (trust me I tried making videos using Python!)&lt;/p&gt;
-
-&lt;p&gt;Learning each of these bits is a new challenge for me, and a big way to grow personally.&lt;/p&gt;
-
-&lt;h3 id=&quot;6-its-unconventional&quot;&gt;6. It’s Unconventional&lt;/h3&gt;
-
-&lt;p&gt;While there are channels for almost every type of content, it’s still pretty new for founders of tech startups to post content online.&lt;/p&gt;
-
-&lt;p&gt;This is because historically, the personality type of tech founders has been very different from that of content creators (Youtubers for example). There are probably a handful of tech founders who are actively creating videos online.&lt;/p&gt;
-
-&lt;p&gt;It sounds unconventional, and thus my calling.&lt;/p&gt;
-
-&lt;h3 id=&quot;7-new-territory&quot;&gt;7. New Territory&lt;/h3&gt;
-
-&lt;p&gt;Making Youtube videos is a new territory for me and it comes with its own challenges.&lt;/p&gt;
-
-&lt;p&gt;From learning how to record, edit and create engaging content, to how to get more views, likes and subscribers, there are more things to learn in Content Creation than I could have ever imagined.&lt;/p&gt;
-
-&lt;h3 id=&quot;8-passive-income-source&quot;&gt;8. Passive Income Source&lt;/h3&gt;
-
-&lt;p&gt;Other than the stock investments, I don’t really have any passive income.&lt;/p&gt;
-
-&lt;p&gt;I’m hopeful that at some point creating content would bring in some passive income to support my entrepreneurial journey.&lt;/p&gt;
-
-&lt;h3 id=&quot;9-run-marketing-experiments&quot;&gt;9. Run Marketing Experiments&lt;/h3&gt;
-
-&lt;p&gt;What if I could run not one, two but thousand different marketing experiments? As a founder it sounds incredibly exciting. This is true for social media and making videos.&lt;/p&gt;
-
-&lt;p&gt;To be able to run so many experiments, feels like a super power to me, and I’m really excited about it.&lt;/p&gt;
-
-&lt;h3 id=&quot;10-ability-to-convey-ideas&quot;&gt;10. Ability to Convey Ideas&lt;/h3&gt;
-
-&lt;p&gt;All of the above reasons are valid and good reasons, but the biggest reason why I want to solve is because I want to learn how to convey ideas that stick.&lt;/p&gt;
-
-&lt;p&gt;It the most important part of any successful startup, probably the only one, and if I can master it, I can make not one but many, many successful products.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-journey-begins&quot;&gt;The Journey Begins&lt;/h2&gt;
-
-&lt;p&gt;So here I go, the next phase of my journey -&amp;gt; making popular videos online.&lt;/p&gt;
-
-&lt;p&gt;If you haven’t already, don’t miss your chance at 10 years of good luck.&lt;/p&gt;
-
-&lt;p&gt;Like and subscribe to my Youtube channel 👇&lt;/p&gt;
-
-&lt;p&gt;&lt;button class=&quot;customized-button&quot; onclick=&quot; window.open(&apos;https://www.youtube.com/channel/UCgumVa37_24jNvYizs7kUiw&apos;,&apos;_blank&apos;)&quot;&gt;
-“The Unconventional Founder”
-&lt;/button&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-</description>
-        <pubDate>Tue, 28 Sep 2021 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/becoming-a-creator/</link>
-        <guid isPermaLink="true">http://localhost:4000/becoming-a-creator/</guid>
-        
-        
-        <category>Youtube</category>
-        
-        <category>General</category>
         
       </item>
     
@@ -711,8 +386,8 @@ Checkout YRL →
 &lt;p&gt;The job of a creator ends when the user in need &lt;em&gt;discovers&lt;/em&gt;, uses the product to solve a problem and says &lt;em&gt;‘Aha! It’s magic.’&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 22 Jan 2021 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/great-user-experience/</link>
-        <guid isPermaLink="true">http://localhost:4000/great-user-experience/</guid>
+        <link>https://loopthrough-i-j.github.io/my-blog/great-user-experience/</link>
+        <guid isPermaLink="true">https://loopthrough-i-j.github.io/my-blog/great-user-experience/</guid>
         
         
         <category>Product</category>
@@ -845,361 +520,11 @@ Checkout YRL →
 &lt;p&gt;The future would be amazing if I look back and only have to say: “Wow, how cool I did that then”.&lt;/p&gt;
 </description>
         <pubDate>Thu, 14 Jan 2021 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/longterm-thinking/</link>
-        <guid isPermaLink="true">http://localhost:4000/longterm-thinking/</guid>
+        <link>https://loopthrough-i-j.github.io/my-blog/longterm-thinking/</link>
+        <guid isPermaLink="true">https://loopthrough-i-j.github.io/my-blog/longterm-thinking/</guid>
         
         
         <category>Gyaan</category>
-        
-      </item>
-    
-      <item>
-        <title>How to use Cloud without losing sleep</title>
-        <description>&lt;p&gt;A hands on guide for individual developers, small teams without dedicated SRE or oncall teams to using Cloud services safely.&lt;/p&gt;
-
-&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
-
-&lt;p&gt;About a month ago, I published two blog posts on our company blog sharing one of our stories that form our journey: &lt;a href=&quot;https://blog.tomilkieway.com/72k-1/&quot; target=&quot;_blank&quot;&gt;We burnt $72K and almost went bankrupt&lt;/a&gt;. The post was fairly well circulated in the tech community, and inspired me to write a post dedicated to the hacks that help me sleep better at night without having an oncall team to manage all the cloud services.&lt;/p&gt;
-
-&lt;p&gt;This post outlines practices I learnt and now practise for keeping a check on Cloud usage, and an attempt to eliminate possibilities of surprises.&lt;/p&gt;
-
-&lt;center&gt;
-&lt;div class=&quot;yt-container&quot;&gt;
-    &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/b5W5PV3Psjg?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;  
-&lt;em&gt;Here&apos;s the video you are looking for.&lt;/em&gt;
-&lt;/center&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;disclaimers-&quot;&gt;Disclaimers (!)&lt;/h2&gt;
-
-&lt;dl&gt;
-  &lt;dt&gt;1. If you&apos;re capable of hosting everything on your own server(s) ...
-  &lt;/dt&gt;
-  &lt;dd&gt;Congratulations, you&apos;re one of the very few who have this knowledge and experience. You know what you&apos;re doing and keep it up. Depending on whether you have interest in Cloud platforms, this post may or may not add any value to you.&lt;/dd&gt;
-
-  &lt;dt&gt;2. Examples are centric to GCP but fundamentals should apply to all platforms&lt;/dt&gt;
-  &lt;dd&gt;Although examples in this post are on GCP, I&apos;ve tried to structure around some fundamental vs. platform features. All cloud services have similar features, but they have different names, prices and usage policies.&lt;/dd&gt;
-
-  &lt;dt&gt;3. This is not an exhaustive list&lt;/dt&gt;
-  &lt;dd&gt;Like everyone, I&apos;m still learning and growing. Below is what I learnt from several mistakes, figuring out solutions on my own and going through every piece of literature online from great kind minds. If you have more tips, feel free to share with me, and I&apos;ll be happy to add it to this list.&lt;/dd&gt;
-
-  &lt;dt&gt;4. This is a long post&lt;/dt&gt;
-  &lt;dd&gt;Sorry about it, but there&apos;s no way around it. If you find it useful and can&apos;t finish in one go, you can always come back to this post.&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;lets-jump-into-it&quot;&gt;Let’s jump into it!&lt;/h2&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;1-use-multiple-forms-of-payments-fop-preferably-with-spend-caps&quot;&gt;1. Use multiple forms of payments (FOP), preferably with spend caps&lt;/h3&gt;
-
-&lt;p&gt;Let’s begin with the simplest yet the most effective fixes.&lt;/p&gt;
-
-&lt;center&gt;
-&lt;img src=&quot;/assets/images/use-cloud/credit-card.jpg&quot; style=&quot;border: 1px solid black&quot; /&gt;&lt;br /&gt;
-&lt;/center&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Have spending limits/caps on the forms of payments (FOPs) you use.&lt;/strong&gt;
-Most cloud services have a monthly billing except if a threshold spend is reached. If the threshold is reached, the Cloud platforms charge the given account right away. If for some reason, one of your services faulter, the cloud service would directly charge the form of payment (like credit cards) on file, and on non payment, stop the service.&lt;/p&gt;
-
-    &lt;p&gt;Ideally the spending limit could be anywhere between 120-150% of the cost you expect to incur given the usage of your platform.&lt;/p&gt;
-
-    &lt;p&gt;From what I’ve read, it’s relatively easier to get bill waived off than get a refund. While the suggestions in this post will make sure such situations don’t arise, it’s better to have it set up anyways.&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;Don’t use your $25,000 no limit credit card while setting up billing for a fresh account.&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Use different FOPs for development and production.&lt;/strong&gt;&lt;br /&gt;
-After we messed up in one of our projects, our credit card was declined, and this had several unexpected ripple effects.&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;First GCP suspended all our billing accounts tied to the same credit card for a suspect of fraud.&lt;/li&gt;
-      &lt;li&gt;Second, our bank started suspending all future transaction requests from GCP suspecting fraud.&lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;p&gt;Sorting this took several days, and it halted our development cycle. Thankfully we didn’t have a production service back then.&lt;/p&gt;
-
-    &lt;p&gt;In an ideal setup, I recommend using one FOP for production account, and another one for dev/test accounts. Never mix these two.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; &lt;br /&gt;
-If you’re a solo developer, I highly recommend setting up an LLC or some umbrella that gives your personal assets protection. Doesn’t matter where you live, in recent years this process has become quite standard everywhere in the world, thanks to the entrepreneurial boom.&lt;/p&gt;
-
-&lt;p&gt;Some wise people online have suggested setting up a shell company (!). I personally don’t recommend spending time doing this. If you’re building something meaningful, spend all your time making it better in a legit way.&lt;/p&gt;
-
-&lt;h3 id=&quot;2-setup-service-quotas&quot;&gt;2. Setup Service Quotas&lt;/h3&gt;
-
-&lt;p&gt;In GCP users can define &lt;a href=&quot;https://cloud.google.com/docs/quota&quot;&gt;“Quotas”&lt;/a&gt; for most services. AWS has similar feature called &lt;a href=&quot;https://docs.aws.amazon.com/servicequotas/latest/userguide/intro.html&quot; target=&quot;_blank&quot;&gt;“Service Quotas”&lt;/a&gt;, and I’m sure other providers have this as well.&lt;/p&gt;
-
-&lt;p&gt;Depending on type of Quota, some of them can be set for usage per day, per minute or even &lt;em&gt;per user&lt;/em&gt; per minute. I don’t really trust the &lt;em&gt;per user&lt;/em&gt; quota because who defines “a user”? The others quotas for the most part are fairly reliable.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;While GCP doesn’t allow auto cut off on billing, it does allow auto cut off based on usage, well at least for most services.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;For any account with billing, when I enable a new service, I first check if there’s a quota, and if there’s one, I set it to really low while getting familiar with the service. A lot of the services are charged per use and setting up this quota also helps in validating the costs that will be incurred on use.&lt;/p&gt;
-
-&lt;p&gt;As an example, if I’m testing GCP Adult Image Classifier service, as soon as I enable the service, I would first set the Quota to &lt;strong&gt;100 per day&lt;/strong&gt; and then try the codelab provided.&lt;/p&gt;
-
-&lt;center&gt;
-&lt;img src=&quot;/assets/images/use-cloud/vision-quota.png&quot; style=&quot;border: 1px solid black&quot; /&gt;&lt;br /&gt;
-&lt;/center&gt;
-
-&lt;p&gt;If the cloud provider you use neither has auto billing shutoff nor budgets, it should be a big red flag for you to use the service.&lt;/p&gt;
-
-&lt;h4 id=&quot;some-caveats&quot;&gt;Some Caveats&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Default Values are counter intuitive!&lt;/strong&gt;&lt;br /&gt;
-Most services have a preset default quota of unlimited or some absurd value like 1,000,000. Why? God knows. Maybe GCP engineers never paid attention to it, or they assume each of their users, considerable population of which is students, build apps with million dollar budgets.
-Setting quotas is also multi click arduous process probably because they are optimized for large organizations. Don’t fret the extra clicks, it’s worth it.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Not all services have Quota limits&lt;/strong&gt;&lt;br /&gt;
-For example Firestore Read/Write ops. From engineering standpoint, this is understandable because if the service has to check for quota, how can it be real time?
-Don’t assume that every service has a quota.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Not all quotas work as advertised&lt;/strong&gt;&lt;br /&gt;
-Test each of the quotas before fully relying on them. I found several that &lt;strong&gt;don’t work&lt;/strong&gt; and my consults led to bugs with Google. The bugs are not fixed yet, and so if something were to go wrong with those services, they would act as a fall back because it’s an issue on GCP’s side.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;3-cloud-monitoring&quot;&gt;3. Cloud Monitoring&lt;/h3&gt;
-
-&lt;p&gt;While billing is delayed by about a day, most metrics provided by Cloud platforms are delayed by only a few minutes. For GCP this is called Cloud Monitoring, for AWS it’s called CloudWatch and in Microsoft - Azure Monitor.&lt;/p&gt;
-
-&lt;p&gt;These monitoring services are either free for the project services (standard metrics), or available at very, very cheap prices.&lt;/p&gt;
-
-&lt;p&gt;Setting up Monitoring wasn’t really in the face when I started using Cloud Services, nor is it generally advertised, but it’s a great feature that everyone should use.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What it allows:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Creating beautiful custom dashboards with usage graphs for the services you care about&lt;/li&gt;
-  &lt;li&gt;Creating alerts that fire if usage goes beyond a user defined limit. The alerts can be SMS, email and app notifications.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;how-to-use-monitoring-service&quot;&gt;How to use Monitoring service&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Set up Alerts&lt;/strong&gt;&lt;br /&gt;
-You can also set up alerts that’ll fire emails, text messages and mobile app notifications, all for free. While they may not be of much use while you’re sleeping, they do provide a lot of support while you’re awake.&lt;/p&gt;
-
-    &lt;p&gt;Case study from our development cycle:
-During development of our first product Announce, one of the engineers on my team developing locally (live build on localhost) accidentally created an infinite loop that led to infinite Firebase read ops for a few minutes. We had a free limited project for development so nothing could go wrong, but the monitoring alerted me and I reached out to the team to see what was up.&lt;/p&gt;
-
-    &lt;p&gt;The only down side in this was that we had a very limited quota remaining for the day and the team waited until next day to resume development.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Look for spikes&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;center&gt;
-&lt;img src=&quot;/assets/images/use-cloud/spike.png&quot; style=&quot;border: 1px solid black&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;Always take the time to explain spikes in usage.&lt;/em&gt;
-&lt;/center&gt;
-
-&lt;p&gt;Most of the graphs may look daunting and it’s probably not worth understanding each and every metric and figure. To simplify your job, just look into anomalies.&lt;/p&gt;
-
-&lt;p&gt;After few steady days, your job should be to watch out for spikes in usage as compared to the usage in longer period of time. Set the usage to 6 weeks and see if there is a spike. If there is a spike, it should be explained, say too much local testing, surge in usage, expected triggers etc.&lt;/p&gt;
-
-&lt;p&gt;Looking for spikes only takes 2-3 minutes for the dashboard to load, and your job is done. This should be part of daily working routine if you have any service deployed on cloud.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Anticipate and Reduce Costs&lt;/strong&gt;&lt;br /&gt;
-As the graphs are only a few minutes late, after doing something you can wait for a few minutes to see what resources you consumed. You can also predict costs of something before it shows up in billing.&lt;/p&gt;
-
-    &lt;p&gt;Another big advantage is aide in reducing costs! For example, looking at Storage, I understood that GCP was continuously storing build artifacts from &lt;em&gt;each&lt;/em&gt; build which took a development project storage that shouldn’t be using anymore than 100MB to 25GB. There are ways to fix this, but as a developer, one must know that this problem exists.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;center&gt;
-&lt;img src=&quot;/assets/images/use-cloud/spike3.png&quot; style=&quot;border: 1px solid black&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;High execution time could mean under allocation of resources, leading to more cost.
-&lt;/em&gt;
-&lt;/center&gt;
-
-&lt;p&gt;Another example is memory or CPU consumption from the deployed services. Some graphs can easily tell if you have &lt;strong&gt;over/under allocation&lt;/strong&gt; of resources to the services.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Write better Code&lt;/strong&gt;&lt;br /&gt;
-These graphs easily show low hanging fruits to optimize code. Maybe your cloud function is going into background processes, or perhaps its timing out due to some other service being called serially (instead of asynchronously).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;4-use-free-projects&quot;&gt;4. Use Free Projects&lt;/h3&gt;
-
-&lt;p&gt;Cloud Platforms today provide a lot of free services per project, and there are a &lt;strong&gt;lot of projects that a user can create&lt;/strong&gt;. There’s a reason why the systems are set up in such a way. Primary reason, as far as I can think of, is to give enough room for testing and learning about the service.&lt;/p&gt;
-
-&lt;p&gt;Firebase and GCP allow more than 10 projects, which can be extended further. If there’s some issue with your account, you can always file for an extension.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;That’s great… but how to use these free projects?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;center&gt;
-&lt;img src=&quot;/assets/images/use-cloud/cycles.png&quot; style=&quot;border: 1px solid black&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;Basic Environments for Software Development&lt;/em&gt;
-&lt;/center&gt;
-
-&lt;p&gt;Well, for one, set up multiple environments. Software development cycle is common knowledge so I’ll be brief about it. In any project ideally you should have dev, test, staging (alpha), preview (beta) and production environments. No matter how small the project be, you should still have at least dev and prod environments that are completely decoupled from each other. Read that again: &lt;em&gt;completely decoupled&lt;/em&gt; from each other.&lt;/p&gt;
-
-&lt;center&gt;
-&lt;img src=&quot;/assets/images/use-cloud/cycles2.png&quot; style=&quot;border: 1px solid black&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;Sample project structure using Firebase, and GCP resources in different environments&lt;/em&gt;
-&lt;/center&gt;
-
-&lt;p&gt;You can use a free firebase project for development, and a paid one for production. If you have backend services that need cloud sources, you can grant permissions to your free project sources to the paid project service accounts.&lt;/p&gt;
-
-&lt;p&gt;This topic could be an entire post, as creating an architecture that supports multiple environments (dev, test, prod) for multiple platforms (Web, Android, iOS, API) can be a little complex.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Granting permissions of one project to another&lt;/strong&gt;&lt;br /&gt;
-An important concept to understand is types of accounts and accesses. There are two types of user accesses in services: 1. Access to human, and 2. Access to a service account.&lt;/p&gt;
-
-&lt;p&gt;Ideally almost all accesses should be only to service accounts and none to humans (except maybe admins).&lt;/p&gt;
-
-&lt;p&gt;In GCP it’s possible to give permissions to access resources of one project from another project, which is a great feature. I’m very sure every other platform has the same feature and I highly recommend using it.&lt;/p&gt;
-
-&lt;h3 id=&quot;5-spend-good-amount-of-time-understanding-and-predicting-costs&quot;&gt;5. Spend good amount of time understanding and predicting costs&lt;/h3&gt;
-
-&lt;p&gt;Before going through any codelab for a service, first spend some time on Pricing of that service/feature. This is tied to designing the architecture of a project which can be a long post of its own.&lt;/p&gt;
-
-&lt;p&gt;Most cloud services now have a great cost calculator (&lt;a href=&quot;https://cloud.google.com/products/calculator&quot;&gt;GCP Calculator here&lt;/a&gt;). This is a tool for developers to decide whether and how to use that service. Spend some time on these calculators, and test the costs in extreme cases.&lt;/p&gt;
-
-&lt;p&gt;Over the course of time, I have started testing services for a day or two in a safe environment (development account). Wait for the billing to process and when I understand it correctly, then move on to integrating it in the product.&lt;/p&gt;
-
-&lt;p&gt;A better approach would be to predict costs before and then test the service. The cost of service and your prediction should match. Never assume the pricing works as is because there are lot of factors to consider.&lt;/p&gt;
-
-&lt;h3 id=&quot;6-cicd--operational-efficiency&quot;&gt;6. CICD = Operational Efficiency&lt;/h3&gt;
-
-&lt;center&gt;
-&lt;img src=&quot;/assets/images/use-cloud/efficiency.jpg&quot; style=&quot;border: 1px solid black&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;Time spent in CICD is like time spent in converting cube into sphere.&lt;/em&gt;
-&lt;/center&gt;
-
-&lt;p&gt;Any project that has billing enabled, should only be accessed by machines (service accounts) and not humans. This means all code should be deployed through CICD piplines triggered after code merge, which should ideally only happen after code review.&lt;/p&gt;
-
-&lt;p&gt;This falls in operational efficiency, and it doesn’t matter how small your project be, it’s a good idea to set it up like this because there’s no reason not to.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Time spent in infrastructure is like an investment. Over the course of time it will save you time and energy.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Less human intervention is better, both for security and efficiency. If you’re on Github, Github Actions is one of the most valuable sources available, which is mostly free. Until now, there hasn’t been a month that I paid for Actions and I manage lot of CICD Pipelines.&lt;/p&gt;
-
-&lt;p&gt;GCP Cloud Build gives 120 minutes per day per billing account free, which to be honest is a lot. Unless you’re deploying ML models, or have lot of projects + large team, I highly doubt that this free tier would be breached.&lt;/p&gt;
-
-&lt;p&gt;Firebase has a great CLI, but I &lt;strong&gt;don’t recommend&lt;/strong&gt; using it for deploying to production environments. For one, it’s harder to version the code and you might end up deploying buggy code. Second, any change in the deployment has to go through your machine.&lt;/p&gt;
-
-&lt;p&gt;CICD forces you to be good at code management and versioning, and that’s a good thing.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What if I have to deploy just one function?&lt;/strong&gt;&lt;br /&gt;
-I still recommend setting up CICD because it’s reusable. Once you’ve figured out to set it up for one function, all your future deployments will require zero work.&lt;/p&gt;
-
-&lt;h3 id=&quot;7-protect-the-keys&quot;&gt;7. Protect the keys!&lt;/h3&gt;
-
-&lt;center&gt;
-&lt;img src=&quot;/assets/images/use-cloud/key-security.jpg&quot; style=&quot;border: 1px solid black&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;No Key == Better Security&lt;/em&gt;
-&lt;/center&gt;
-
-&lt;p&gt;Most starter codelabs suggest downloading “service-key.json” and setting the environment locally. This is a great suggestion for someone testing a new service on free projects. However, any project that you plan on adding Billing, &lt;strong&gt;don’t ever download a key&lt;/strong&gt;. It’s just not needed, and there’s lot of risk that goes with it.&lt;/p&gt;
-
-&lt;p&gt;For example you may accidentally add it to a git commit, forget to delete it while sharing code, or simply leave it somewhere on your system.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Simplest solution to securing keys and tokens is to never download them.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I do download service keys but only when absolutely required, and only for development accounts that are on Free plan. For example in order to use Firebase emulator.&lt;/p&gt;
-
-&lt;p&gt;When keys are needed in CICD, encrypt them right away and delete the local copies before committing any code.&lt;/p&gt;
-
-&lt;p&gt;You can easily use encryption on Cloud without spending any time learning it. KMS and Secret Manager are as simple as it can get.&lt;/p&gt;
-
-&lt;h3 id=&quot;8-multi-cloud&quot;&gt;8. Multi Cloud&lt;/h3&gt;
-
-&lt;p&gt;If you have resources and not bootstrapped with an extremely small team, you probably are using more than just one Cloud. DO, GCP, Azure and AWS, all have some great pluses and minuses. If you have dedicated dev-ops and SREs I highly recommend making use of multi-cloud.&lt;/p&gt;
-
-&lt;p&gt;However, if you’re a solo indie developer, or a small startup, I recommend using just one cloud unless you really need just one feature from another cloud service. This, because each cloud service has its own dictionary, and learning curve.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;‎”I fear not the man who has practiced 10,000 kicks once, but I fear the man who has practiced one kick 10,000 times.”
-Bruce Lee&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;It doesn’t matter which service, which language, which platform you choose, my recommendation is to spend as much time on it to learn and experiment that you’re the most knowledgeable about it.&lt;/p&gt;
-
-&lt;p&gt;Each cloud provider has similar set of tools, but using them, understanding their pricing/dictionary, and navigating their console takes lot of time to learn and adapt to. My recommendation is to master the one you choose and optimize your usage based on the positives and negatives of that platform.&lt;/p&gt;
-
-&lt;h3 id=&quot;9-read-the-best-practices-from-the-provider&quot;&gt;9. Read the best practices from the provider&lt;/h3&gt;
-
-&lt;p&gt;Think of cloud providers as coffee machines. The fundamental principles of making coffee remain the same, but the engineers who design the machines chose to prioritize a certain set of features that lead to certain design trade offs. The machine must be used in a certain way to work the best, and certain things should always be avoided.&lt;/p&gt;
-
-&lt;p&gt;Cloud Platforms are very similar to fancy expensive coffee machines in this way. They come with a guidebook manual that’s continuously evolving, and often has a set of dos / don’ts included.&lt;/p&gt;
-
-&lt;p&gt;I highly recommend going through the dos and don’ts for each of the service you use not only for best performance, but also to avoid unnecessary troubles.&lt;/p&gt;
-
-&lt;p&gt;Good example of this is &lt;a href=&quot;https://cloud.google.com/run/docs/tips/general&quot; target=&quot;_blank&quot;&gt;Google Cloud Run development tips&lt;/a&gt;. This article clearly states that developers should avoid background activities. If you as a developer didn’t go to this page on your own, and wrote a program that has some potential background activities but works perfectly on your local machine, you’d never realize why your code performs so badly on Cloud.&lt;/p&gt;
-
-&lt;p&gt;Point being, always proactively look for best practices for any service you use. SO and Medium have some great resources for most services :)&lt;/p&gt;
-
-&lt;h3 id=&quot;10-billing-budget-alerts--notifications&quot;&gt;10. Billing Budget Alerts / Notifications&lt;/h3&gt;
-
-&lt;p&gt;Every single guide, article, post recommends setting up billing alerts, and auto shut off cloud functions. This my least favorite feature, and the last on my list simply because it’s not proactive but post facto.&lt;/p&gt;
-
-&lt;p&gt;I do recommend setting Billing/Budget alert because it’s there, but it isn’t a feature I suggest anyone to rely upon.&lt;/p&gt;
-
-&lt;h2 id=&quot;all-of-this-to-deploy-simple-code&quot;&gt;All of this to deploy simple code?&lt;/h2&gt;
-
-&lt;p&gt;Well, it depends. If you’re deploying a small Cloud Function or equivalent thereof which has no possibility of backfiring then probably not.&lt;/p&gt;
-
-&lt;p&gt;If you’re deploying a scalable product that has multiple connected services and you don’t have deep pockets, I recommend suggestions in this post.&lt;/p&gt;
-
-&lt;p&gt;Building something from scratch, and making it economically scalable isn’t an easy task. It doesn’t matter if your product cures cancer, or you’re working on a spam attack, building anything requires substantial amount of work.&lt;/p&gt;
-
-&lt;p&gt;There’s a reason why SREs are paid so well across the industry, and there’s a huge constant demand for them.&lt;/p&gt;
-
-&lt;p&gt;Thankfully the world is becoming better everyday with better free tutorials, codelabs, and people sharing their awesome strategies on SO for free. Key is to begin :).&lt;/p&gt;
-
-&lt;h2 id=&quot;sleep-like-a-baby&quot;&gt;Sleep like a baby&lt;/h2&gt;
-
-&lt;center&gt;
-&lt;img src=&quot;/assets/images/use-cloud/sleep-well.jpg&quot; style=&quot;border: 1px solid black&quot; /&gt;&lt;br /&gt;
-&lt;em&gt;Great Sleep == Great Productivity.&lt;/em&gt;
-&lt;/center&gt;
-&lt;p&gt;This post covers the basic setup that I usually do for any project that I deploy on Cloud. All of this helps me sleep well at night without having any SRE or anyone in dev-ops.&lt;/p&gt;
-
-&lt;p&gt;Well, that’s probably not entirely true as each of the big cloud services have tens of thousands of brilliant engineers that I can easily piggy back on.&lt;/p&gt;
-
-&lt;p&gt;There are several service specific hacks not included in this post, which I might write about in future.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;This is &lt;strong&gt;not&lt;/strong&gt; a sponsored post. There are no newsletter signups, no affiliate links, no product promotion. If you found this post useful, &lt;strong&gt;share it&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;If you’d like to get my future posts, or just want to say hello, &lt;a href=&quot;/contact&quot;&gt;connect with me.&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-</description>
-        <pubDate>Wed, 13 Jan 2021 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/guide-to-cloud/</link>
-        <guid isPermaLink="true">http://localhost:4000/guide-to-cloud/</guid>
-        
-        
-        <category>Startup</category>
-        
-        <category>Engineering</category>
         
       </item>
     
@@ -1251,8 +576,8 @@ Bruce Lee&lt;/p&gt;
 &lt;p&gt;If you like it, &lt;strong&gt;share it&lt;/strong&gt;, add references to it, and keep reading on :)&lt;/p&gt;
 </description>
         <pubDate>Mon, 28 Dec 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/namaste/</link>
-        <guid isPermaLink="true">http://localhost:4000/namaste/</guid>
+        <link>https://loopthrough-i-j.github.io/my-blog/namaste/</link>
+        <guid isPermaLink="true">https://loopthrough-i-j.github.io/my-blog/namaste/</guid>
         
         
         <category>General</category>
